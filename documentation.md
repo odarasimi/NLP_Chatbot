@@ -19,7 +19,7 @@ The extractive QA system is trained using a model that is optimized to automatic
 
 The "Sciq" dataset is combined with the quartz and openbookqa science based datasets (found on Huggingface hub) by merging the provided contexts into a large single context. Due to the large size of the context, the NLP framework `Haystack` is used to do the question/answering at scale. The Haystack framework retrieves the document and reads the data based on the model that was trained earlier. Once the system provides an answer, the response is translated back to the input language if required using the `googletrans` library.
 
-* Due to the large size of the model, it was uploaded to the Huggingface hub from where it will be called. However, the training script can be found in the folder.
+* Due to the large size of the model, it was trained and uploaded to the Huggingface hub from where it will be called. However, the training script can be found in the folder.
 * The corpus used for our language context is also provided in the folder, but the code to generate the data is present in the folder.
 
 ## Algorithm Stages

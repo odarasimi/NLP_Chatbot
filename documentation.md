@@ -29,7 +29,7 @@ The "Sciq" dataset is combined with the quartz and openbookqa science based data
 3. Determine intent of statement (greeting, goodbye, or question)
 4. If greeting or goodbye, provide random pre-defined response
 5. If question, pass the statement to the extractive QA system
-6. Retrieve document and read data based on the model trained on "Sciq" and SQUAD datasets
+6. Retrieve document and read data based on the model trained on "Sciq", "Openbookqa", "quartz" datasets
 7. Provide answer and translate back to the input language if required
 
 ### Required Installations
